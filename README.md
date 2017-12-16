@@ -27,7 +27,7 @@ Make sure you have JDK 8 installed. Modify %HADOOP_HOME%\etc\hadoop\hadoop-env.c
 set JAVA_HOME=C:\Progra~1\Java\jdk1.8.0_131
 <br/>
 
-# Download and extract the linux build to a temporary directory
+# Add rest of jar dependencies from standard build
 curl -O http://apache.claz.org/hadoop/common/hadoop-3.0.0/hadoop-3.0.0.tar.gz
 <br/>
 tar -xzvf hadoop-3.0.0.tar.gz
