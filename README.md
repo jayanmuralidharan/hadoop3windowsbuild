@@ -19,7 +19,7 @@ Extract windows binaries
 <br/>
 unzip hadoop-3.0.0.zip
 <br/>
-#Setup Environment variables:
+# Setup Environment variables:
 set HADOOP_HOME=c:\hdp\hadoop3windowsbuild\hadoop-3.0.0
 <br/>
 Make sure you have JDK 8 installed. Modify %HADOOP_HOME%\etc\hadoop\hadoop-env.cmd to use windows short path for the jdk folder as below:
